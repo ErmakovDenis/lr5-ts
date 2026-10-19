@@ -1,0 +1,20 @@
+{
+  "name": "lr5-ts",
+  "version": "1.0.0",
+  "description": "ЛР5 — структура данных для хранения словаря языка",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.ts",
+    "test": "node --test",
+    "bench": "node --expose-gc bench/benchmark.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=23"
+  }
+}
